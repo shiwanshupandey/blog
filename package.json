@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "NODE_OPTIONS= --openssl-legacy-provider && next dev",
     "build": "NODE_OPTIONS= --openssl-legacy-provider && next build",
-    "start": "nextstart",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
