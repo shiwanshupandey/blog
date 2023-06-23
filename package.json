@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=0.10.3 <18"
+    "node": "19.4.0"
   },
   "engineStrict": true,
   "scripts": {
@@ -13,28 +13,28 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "graphql": "^15.8.0",
-    "graphql-request": "^3.7.0",
-    "html-react-parser": "^1.4.14",
-    "moment": "^2.29.4",
+    "graphql": "^16.7.1",
+    "graphql-request": "^6.1.0",
+    "html-react-parser": "^4.0.0",
     "lodash": "^4.17.21",
-    "next": "11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-multi-carousel": "^2.8.2",
-    "sass": "^1.54.9",
-    "swr": "^1.0.1"
+    "moment": "^2.29.4",
+    "next": "13.4.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-multi-carousel": "^2.8.4",
+    "sass": "^1.63.6",
+    "swr": "^2.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.6",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-next": "11.1.2",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.26.1",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "postcss": "^8.3.8",
-    "tailwindcss": "^2.2.7"
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "^13.4.7",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
   }
 }
